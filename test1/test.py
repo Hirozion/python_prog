@@ -1,12 +1,12 @@
 import random
 
 secret = random.randint(0,10)
-life = 10
+life = 3
 
 print(secret)
 nb = int(input("Rentrez un nombre svp : "))
 
-while nb != secret:
+while True:
     if nb == secret:
         print("GG !")
         exit(1)
