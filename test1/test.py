@@ -11,7 +11,7 @@ while True:
         print("GG !")
         exit(1)
     elif life == 0:
-        print("Game Over L")
+        print(" -- Game Over L")
         exit(1)
     else:
         nb = int(input("Rentrez un nombre svp : "))
