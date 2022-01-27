@@ -1,0 +1,16 @@
+@startuml "tt"
+scale 2.5
+Game <- Player 
+Game : difficulty 
+Game : gamemode
+Game : Player
+Game : secret 
+Game : gamemode()
+Game : choiceDifficulty()
+Game : gameplay()
+
+Player : name
+Player : Life
+Player : choice
+Player : play()
+@enduml 
